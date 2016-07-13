@@ -22,23 +22,27 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:background="@drawable/print_target"
             android:id="@+id/precisionMode25mButton" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:background="@drawable/print_target"
             android:id="@+id/precisionMode30mButton"
             android:gravity="center_vertical|center_horizontal"
-            android:layout_marginLeft="210dp" />
+            android:layout_marginLeft="240dp"
+            android:layout_marginStart="230dp"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:background="@drawable/print_target"
             android:id="@+id/precisionMode50mButton"
-            android:layout_marginLeft="170dp" />
+            android:layout_marginLeft="190dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"/>
 
     </LinearLayout>
 

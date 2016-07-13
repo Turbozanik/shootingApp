@@ -11,15 +11,16 @@ import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 /**
  * Created by Roma on 13.07.2016.
  */
 public class TargetChoseActivity extends AppCompatActivity implements View.OnClickListener, ImageSaveCallback{
 
-    Button a25mButton;
-    Button a30mButton;
-    Button a50mButton;
+    ImageButton a25mButton;
+    ImageButton a30mButton;
+    ImageButton a50mButton;
 
     Context context;
     @Override
@@ -29,9 +30,9 @@ public class TargetChoseActivity extends AppCompatActivity implements View.OnCli
 
         context = this;
 
-        a25mButton = (Button)findViewById(R.id.precisionMode25mButton);
-        a30mButton = (Button)findViewById(R.id.precisionMode30mButton);
-        a50mButton = (Button)findViewById(R.id.precisionMode50mButton);
+        a25mButton = (ImageButton)findViewById(R.id.precisionMode25mButton);
+        a30mButton = (ImageButton)findViewById(R.id.precisionMode30mButton);
+        a50mButton = (ImageButton)findViewById(R.id.precisionMode50mButton);
 
         a25mButton.setOnClickListener(this);
         a30mButton.setOnClickListener(this);
